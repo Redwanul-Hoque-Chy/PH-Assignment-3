@@ -84,6 +84,7 @@ nav button{
 
 .banner img{
     /*height: 400px;*/
+    align-items: center;
 }
 
 footer h2{
