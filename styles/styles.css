@@ -6,3 +6,17 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
+.banner{
+    display: flex;
+    border: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    justify-items: center;
+}
+
+.primary-button{
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
