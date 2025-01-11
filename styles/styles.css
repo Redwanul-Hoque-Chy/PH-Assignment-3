@@ -133,17 +133,18 @@ main{
     margin: 80px 0px 0px;
 }
 
-.card-block{
+.cards-block{
     display: flex;
     gap: 24px;
     justify-content: space-between;
 }
 
-.card-block .pillars-card{
+.pillars-card{
     background-color: white;
     padding: 24px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, .15);
+    width:25%;
 }
 
 /* vision section */
@@ -166,18 +167,21 @@ main{
     background-color: rgba(84, 144, 255, .2);
     padding: 32px;
     border-radius: 16px;
+    width:33%;
 }
 
 .vision-card2{
     background-color: rgba(198, 228, 214, 1);
     padding: 32px;
     border-radius: 16px;
+    width:33%;
 }
 
 .vision-card3{
     background-color: rgba(247, 235, 207, 1);
     padding: 32px;
     border-radius: 16px;
+    width:33%;
 }
 
 .card-title{
