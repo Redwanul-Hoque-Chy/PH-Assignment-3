@@ -3,13 +3,6 @@ html{
     padding: 0 auto;
     background-color: #f1f1f3;
 }
-:root {
-    --primary-color:#0E0E0E;
-    --text-color1: rgba(14, 14,14,.8);
-    --text-color2: rgba(14, 14,14,.6);
-    --text-color3: rgba(14, 14,14,.7);
-    --text-color4: rgba(14, 14,14,.4);
-}
 
 *{
     font-family: "Fira Sans", serif;
@@ -24,6 +17,7 @@ html{
     font-weight: 600;
     border: none;
     border: 1px solid #006A50;
+    cursor: pointer;
 }
 
 .btn-primary:hover{
@@ -43,7 +37,7 @@ html{
 .section-title{
     font-size: 40px;
     font-weight: bold;
-    color: var(--primary-color);
+    color: #0E0E0E;
     margin-top:80px;
     margin-bottom:24px;
 }
@@ -70,7 +64,7 @@ header nav{
 nav h2{
     font-weight: bold;
     font-style: 32px;
-    color: var(--primary-color);
+    color: #0E0E0E;
 }
 
 nav button{
@@ -105,7 +99,7 @@ main{
     align-content: center;
 }
 .banner .content .title{
-    color: var(--primary-color);
+    color: #0E0E0E;
     font-weight: 500;
     font-size: 24px;
     margin-bottom: 16px;
@@ -160,7 +154,7 @@ main{
     margin-top: 32px;
     margin-bottom: 12px;
     font-weight: bold;
-    color: var(--text-color1);
+    color: rgba(14, 14,14,.8);
 }
 
 .card-description{
@@ -176,6 +170,7 @@ main{
     border: none;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .card-btn-bg1{
@@ -217,18 +212,18 @@ main{
 
 .quote-text1{
     font-size: 16px;
-    color: var(--text-color1);
+    color: rgba(14, 14,14,.8);
 }
 
 .quote-text2{
     font-size: 20px;
     font-weight: 600;
-    color: var(--text-color1);
+    color: rgba(14, 14,14,.8);
 }
 
 .quote-text3{
     font-size: 16px;
-    color: var(--text-color2);
+    color: rgba(14, 14,14,.6);
 }
 
 .section-news{
@@ -258,7 +253,7 @@ main{
 .news .news-content h4{
     font-size: 32px;
     font-weight: bold;
-    color: var(--text-color1);
+    color: rgba(14, 14,14,.8);
     padding: 0px;
     margin: 0px;
 }
@@ -266,7 +261,7 @@ main{
 .news .news-content p{
     font-size: 16px;
     line-height: 24px;
-    color: var(--text-color3);
+    color: rgba(14, 14,14,.7);
 }
 
 .news .news-content .p-text1{
@@ -294,13 +289,13 @@ main{
 .newsletter .newsletter-content h2{
     font-weight: bold;
     font-size: 40px;
-    color: var(--primary-color);
+    color: #0E0E0E;
     text-align: center;
 }
 
 .newsletter .newsletter-content p{
     font-size: 16px;
-    color: var(--text-color3);
+    color: rgba(14, 14,14,.7);
     text-align: center;
     line-height: 24px;
 }
@@ -314,7 +309,7 @@ main{
 
 .newsletter .newsletter-content input[type=text]{
     width: 600px;
-    color: var(--text-color4);
+    color: rgba(14, 14,14,.4);
     background-color: white;
     padding: 18px 40px;
     border: none;
@@ -332,11 +327,32 @@ main{
     text-align: center;
 }
 
+.form-donate input[type=radio]{
+    display: none;
+    height: 1px;
+    width: 1px;
+}
+
+.form-donate label{
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    color: rgba(14, 14,14,.8);
+    display: inline-block;
+    margin: 32px 24px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form-donate .donate_amount:checked+label{
+    background-color: #C6E4D6;
+}
+
 .form-donate input[type=text]{
     width: 1032px;
-    color: var(--text-color4);
+    color: rgba(14, 14,14,.4);
     background-color: white;
-    padding: 18px 40px;
+    padding: 20px 40px;
     border: none;
     border-radius: 8px 0px 0px 8px;
     margin: 0px auto;
@@ -365,7 +381,7 @@ footer h2{
     text-align: center;
     font-size: 32px;
     font-weight: bold;
-    color: var(--primary-color);
+    color: #0E0E0E;
 }
 
 footer hr{
@@ -375,6 +391,7 @@ footer hr{
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
 footer .social{
     display: flex;
     gap:23px;
