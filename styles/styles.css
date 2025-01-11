@@ -8,6 +8,7 @@ html{
     --text-color1: rgba(14, 14,14,.8);
     --text-color2: rgba(14, 14,14,.6);
     --text-color3: rgba(14, 14,14,.7);
+    --text-color4: rgba(14, 14,14,.4);
 }
 
 *{
@@ -22,15 +23,21 @@ html{
     font-size: 18px;
     font-weight: 600;
     border: none;
+    border: 1px solid #006A50;
 }
 
 .btn-primary:hover{
     color: #006A50;
     background-color: white;
+    border: 1px solid #006A50;
 }
 
 .text-left{
     text-align: left;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .section-title{
@@ -79,7 +86,7 @@ main{
     width: 1600px;
     background-color: #f1f1f3;
     margin: 0px auto;
-    padding: 20px 160px;
+    padding: 20px 160px 0px;
 }
 
 .banner{
@@ -115,6 +122,9 @@ main{
     align-items: center;
 }
 
+.section-vision{
+    margin: 80px 0px;
+}
 .vision{
     margin: 32px 0px;
     display: flex;
@@ -170,18 +180,37 @@ main{
 
 .card-btn-bg1{
     background-color: #5490F5;
+    border:1px solid #5490F5;
 }
 .card-btn-bg2{
     background-color: #09A15C;
+    border:1px solid #09A15C;
 }
 .card-btn-bg3{
     background-color: #FFC239;
+    border:1px solid #FFC239;
+}
+
+.card-btn-bg1:hover{
+    color: #5490F5;
+    background-color: white;
+    border:1px solid #5490F5;
+}
+.card-btn-bg2:hover{
+    color: #09A15C;
+    background-color: white;
+    border:1px solid #09A15C;
+}
+.card-btn-bg3:hover{
+    color: #FFC239;
+    background-color: white;
+    border:1px solid #FFC239;
 }
 
 .quote{
     background: url('../assets/quote-bg.png'),white;
     border-radius: 8px;
-    background-position: left 24px top 24px, right top;
+    background-position: left 24px top 32px, right top;
     background-repeat: no-repeat, repeat;
     padding: 48px 24px;
 }
@@ -202,6 +231,11 @@ main{
     color: var(--text-color2);
 }
 
+.section-news{
+    margin: 80px 0px;
+}
+
+
 .news{
     display: flex;
     justify-content: space-between;
@@ -209,22 +243,114 @@ main{
     background-color: white;
     border-radius: 24px;
     padding: 48px 32px;
+    margin-bottom: 24px;
 }
 
 .news .news-img{
     border-radius: 24px;
 }
 
+.news .news-img2{
+    width: 134px;
+    padding: 12px 0px;
+}
+
 .news .news-content h4{
     font-size: 32px;
     font-weight: bold;
     color: var(--text-color1);
+    padding: 0px;
+    margin: 0px;
 }
 
 .news .news-content p{
     font-size: 16px;
     line-height: 24px;
     color: var(--text-color3);
+}
+
+.news .news-content .p-text1{
+    padding-bottom: 12px;
+}
+
+.news .news-content .p-text2{
+    padding-bottom: 32px;
+}
+
+.newsletter{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.newsletter .newsletter-content{
+    width: 622px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.newsletter .newsletter-content h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.newsletter .newsletter-content p{
+    font-size: 16px;
+    color: var(--text-color3);
+    text-align: center;
+    line-height: 24px;
+}
+
+.newsletter .newsletter-content form{
+    display: flex;
+}
+.newsletter .newsletter-content input[type=submit]{
+    border-radius: 0px 8px 8px 0px;
+}
+
+.newsletter .newsletter-content input[type=text]{
+    width: 600px;
+    color: var(--text-color4);
+    background-color: white;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.newsletter .newsletter-content input[type=text]:focus{
+    border: none;
+    outline: none;
+}
+
+.form-donate{
+    margin: 0px auto;
+    padding: 0px auto;
+    text-align: center;
+}
+
+.form-donate input[type=text]{
+    width: 1032px;
+    color: var(--text-color4);
+    background-color: white;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+
+.form-donate input[type=text]:focus{
+    border: none;
+    outline: none;
+}
+
+.form-donate input[type=submit]{
+    margin-top: 32px;
 }
 
 footer{
