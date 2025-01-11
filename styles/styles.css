@@ -77,6 +77,12 @@ nav button{
     cursor: pointer;
 }
 
+nav button:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #006A50
+}
+
 main{
     width: 1600px;
     background-color: #f1f1f3;
