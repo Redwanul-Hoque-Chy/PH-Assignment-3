@@ -1,6 +1,7 @@
 html{
     margin: 0 auto;
     padding: 0 auto;
+    background-color: #006A50;
 }
 :root {
     --primary-color:#0E0E0E;
@@ -96,8 +97,8 @@ main{
 
 footer{
     background-color: white;
-    padding: 50px 160px;
-    width: 1600px;
+    padding: 50px auto;
+    width: 100%;
     margin: 0px auto;
 }
 
