@@ -135,8 +135,8 @@ main{
 
 .card-block{
     display: flex;
-    justify-content: space-between;
     gap: 24px;
+    justify-content: space-between;
 }
 
 .card-block .pillars-card{
@@ -153,8 +153,8 @@ main{
 .vision{
     margin: 32px 0px;
     display: flex;
-    justify-content: space-between;
     gap:24px;
+    justify-content: space-between;
 }
 
 .vision img{
