@@ -348,6 +348,10 @@ main{
     background-color: #C6E4D6;
 }
 
+.form-donate .donate_amount:hover+label{
+    background-color: #C6E4D6;
+}
+
 .form-donate input[type=text]{
     width: 1032px;
     color: rgba(14, 14,14,.4);
