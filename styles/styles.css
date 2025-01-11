@@ -47,6 +47,8 @@ html{
     color: rgba(14,14,14,.7);
 }
 
+
+/* header section */
 header{
     padding:24px 160px;
     /*width: 100%;*/
@@ -60,6 +62,7 @@ header nav{
     display: flex;
     justify-content: space-between;
 }
+
 
 nav h2{
     font-weight: bold;
@@ -90,6 +93,8 @@ main{
     padding: 20px 160px 0px;
 }
 
+
+/* banner section*/
 .banner{
     background-color:#C6E4D6;
     display: flex;
@@ -119,10 +124,11 @@ main{
 }
 
 .banner img{
-    /*height: 400px;*/
     align-items: center;
 }
 
+
+/* pillars section */
 .section-pillars{
     margin: 80px 0px 0px;
 }
@@ -140,6 +146,7 @@ main{
     border: 1px solid rgba(14, 14, 14, .15);
 }
 
+/* vision section */
 .section-vision{
     margin: 80px 0px;
 }
@@ -237,19 +244,23 @@ main{
 .quote-text1{
     font-size: 16px;
     color: rgba(14, 14,14,.8);
+    line-height: 24px;
 }
 
 .quote-text2{
     font-size: 20px;
     font-weight: 600;
     color: rgba(14, 14,14,.8);
+    line-height: 24px;
 }
 
 .quote-text3{
     font-size: 16px;
     color: rgba(14, 14,14,.6);
+    line-height: 24px;
 }
 
+/* news section */
 .section-news{
     margin: 80px 0px;
 }
@@ -296,6 +307,7 @@ main{
     padding-bottom: 32px;
 }
 
+/* newsletter section */
 .newsletter{
     background-color: #C6E4D6;
     border-radius: 24px;
@@ -345,6 +357,7 @@ main{
     outline: none;
 }
 
+/* donate section*/
 .form-donate{
     margin: 0px auto;
     padding: 0px auto;
@@ -397,6 +410,7 @@ main{
     margin-top: 32px;
 }
 
+/* footer section*/
 footer{
     background-color: white;
     padding: 0px auto;
