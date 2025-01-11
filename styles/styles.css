@@ -63,7 +63,7 @@ header nav{
     justify-content: space-between;
 }
 
-
+/* nav */
 nav h2{
     font-weight: bold;
     font-style: 32px;
@@ -86,6 +86,8 @@ nav button:hover{
     background-color: #006A50
 }
 
+
+/* main */
 main{
     width: 1600px;
     background-color: #f1f1f3;
