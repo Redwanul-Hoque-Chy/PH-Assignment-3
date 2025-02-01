@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
     <style>
         .adlam-display-regular {
             font-family: "ADLaM Display", serif;
@@ -110,11 +111,11 @@
     </header>
     <main class="md:container mx-auto">
       <section>
-        <div class="carousel lg:h-[750px]">
-            <div id="item1" class="flex-col carousel-item w-full h-[400px] lg:h-[700px] bg-[url(/assets/cat-big.png)] bg-right-bottom bg-cover bg-no-repeat"> 
+        <div class="w-full carousel h-[400px] lg:h-[750px] px-[20px]">
+            <div id="item1" class="flex-col carousel-item w-full h-[400px] lg:h-[700px] bg-[url(/assets/cat-big.png)] lg: bg-right-bottom bg-contain lg:bg-[100%_100%] bg-no-repeat"> 
             <h1 class="text-text adlam-display-regular text-3xl lg:text-5xl mt-[24px] w-full lg:w-[680px]">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
             <p class="w-full lg:w-[680px] text-xl lg:text-xl text-text opacity-70 mt-[5px]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-            <button class="btn text-text bg-ascent text-base lg:text-xl w-[40px] lg:w-[100px] mt-[5px]">Find a pet</button>
+            <button class="animate-bounce btn text-text bg-ascent text-base lg:text-xl w-[120px] lg:w-[200px] mt-[5px]">Find a pet</button>
             </div>
         </div>
       </section>
@@ -296,25 +297,77 @@
       <section class="w-full mt-[40px]">
         <h4 class="adlam-display-regular text-text text-2xl lg:text-4xl mb-[20px]">Everyday Low Price</h4>
           <div class="flex flex-col lg:flex-row lg:gap-[12px]">
-            <div class="card h-[335px] lg:h-[480px] w-full lg:w-[60%] pl-[15px] lg:pl-[20px] bg-gradient-to-tl from-[#F8CCFB] to-[#ACD2FD] justify-start items-start">
+            <div class="card h-[335px] lg:h-[480px] w-full lg:w-[60%] pl-[15px] lg:pl-[20px] bg-gradient-to-tl from-[#ACD2FD] to-[#F8CCFB] justify-start items-start">
               <div class=" w-full h-full bg-[url(assets/cute-dog-mid.png)] bg-no-repeat bg-right-bottom bg-[auto_100%]">
                 <div class="card-body text-left pl-0 mb-0 pb-0 flex-none">
-                  <h6>Under Price</h6>
-                  <h2 class="card-title text-left pl-0 text-text text-3xl">Pet Grooming Mitt</h2>
-                  <p class="text-[#333] text-base lg:text-lg">(Easy Hair Removal)</p>
-                  <h6 class="text-[#333] text-base lg:text-lg">$7.99</h6>
+                  <h6 class="text-[#000] text-sm lg:text-xl hidden lg:block">Under Price</h6>
+                  <h2 class="card-title text-left pl-0 text-[#000] text-3xl adlam-display-regular">Pet Grooming Mitt</h2>
+                  <p class="text-[#fff] text-base lg:text-2xl adlam-display-regular hidden lg:block">(Easy Hair Removal)</p>
+                  <h6 class="text-[#000] text-3xl lg:text-5xl adlam-display-regular">$7.99</h6>
                 </div>
               </div>
             </div>
-            <div class="card w-full lg:w-[40%] pl-[15px] lg:pl-[20px] bg-linear-to-r from-[#F8CCFB] to-[#ACD2FD] bg-[url(assets/cute-dog-mid.png)] bg-no-repeat bg-right-bottom">
-              <div class="">
+            <div class="card h-[335px] lg:h-[480px] w-full lg:w-[40%] pl-[15px] lg:pl-[20px] bg-gradient-to-tl from-[#F9DF8A] to-[#FFF9F4] justify-start items-start">
+              <div class=" w-full h-full bg-[url(assets/cute-pet-mid.png)] bg-no-repeat bg-right-bottom bg-[auto_80%]">
                 <div class="card-body text-left pl-0 mb-0 pb-0 flex-none">
-                  <h2 class="card-title text-left pl-0 text-text text-3xl">T-Shirt for Dogs</h2>
-                  <h6 class="text-[#333] text-base lg:text-lg">$7.99</h6>
+                  <h2 class="card-title text-left pl-0 text-[#000] text-3xl adlam-display-regular">T-Shirt for Dogs</h2>
+                  <h6 class="text-ascent text-3xl lg:text-5xl adlam-display-regular">$7.99</h6>
                 </div>
               </div>
             </div>
+        </div>
+      </section>
+
+      <section class="w-full mt-[40px] rounded-[16px] relative -mb-[100px] z-[999] bg-[#fff]">
+        <div  class="flex items-center">
+          <div class="p-[80px]">
+            <img src="assets/cute-pet-mid.png">
+          </div>
+          <div>
+            <h4 class="adlam-display-regular text-text text-3xl">Get Pawsome News!</h4>
+            <p class="text-text text-xl mt-[20px]">Exclusive training tips, ticks, product deals and more.</p>
+            <input type="text" placeholder="Enter Email..." class="input input-bordered w-full max-w-xs  mt-[20px]" />
+            <br><a class="btn bg-ascent text-text px-[30px] py-[10px] mt-[20px]">Subscribe</a>
+          </div>
+        </div>
       </section>
     </main>
+    <footer class="bg-[rgba(255,220,38,.5)]">
+      <!--div class="mx-auto md:container rounded-[16px] -mt-[80px] bg-[#ff0000]">
+        <div  class="flex items-center">
+          <div class="p-[80px]">
+            <img src="assets/cute-pet-mid.png">
+          </div>
+          <div>
+            <h4 class="adlam-display-regular text-text text-3xl">Get Pawsome News!</h4>
+            <p class="text-text text-xl mt-[20px]">Exclusive training tips, ticks, product deals and more.</p>
+            <input type="text" placeholder="Enter Email..." class="input input-bordered w-full max-w-xs  mt-[20px]" />
+            <br><a class="btn bg-ascent text-text px-[30px] py-[10px] mt-[20px]">Subscribe</a>
+          </div>
+        </div>
+      </div-->
+      <div class="mx-auto md:container footer text-base-content grid-cols-1 lg:grid-cols-3 mt-[150px]">
+        <nav>
+          <div class="flex text-text text-2xl items-center">
+          <img src="assets/logo-footer.png" class="mr-5"><span>Browse<span class="text-ascent">4</span>Pets</span>
+        </div>
+        </nav>
+        <nav> 
+          <a class="link link-hover text-text text-xl">Find a pet</a>
+          <a class="link link-hover text-text text-xl">Breeds</a>
+          <a class="link link-hover text-text text-xl">Contact Us</a>
+        </nav>
+        
+        <nav class="self-end">
+          <h6 class="footer-title text-text text-xl">Follow Us</h6>
+          <div class="flex gap-[10px]">
+            <a><i class="fa fa-facebook-official text-[30px]" aria-hidden="true"></i></a> 
+            <a><i class="fa fa-instagram  text-[30px]" aria-hidden="true"></i></a>
+            <a><i class="fa fa-linkedin-square text-[30px] rounded" aria-hidden="true"></i></a>
+            <a><i class="fa fa-youtube-play  text-[30px]" aria-hidden="true"></i></a>
+          </div>
+        </nav>
+    </div>
+    </footer>
 </body>
 </html>
