@@ -40,7 +40,7 @@
     <header class="bg-[#FFF9F4] md:container mx-auto">
         <div class="navbar">
             <div class="navbar-start text-3xl">
-              <img src="assets/logo-header.png" class="mr-5"> Browse<span class="text-ascent">4</span>Pets
+              <img src="assets/logo-header.png" class="mr-5"><span class="hidden lg:block">Browse<span class="text-ascent">4</span>Pets</span> 
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-xl">
@@ -187,24 +187,106 @@
 
       <section class="w-full">
         <h4 class="adlam-display-regular text-text text-2xl lg:text-4xl">Trending Pet Products</h4>
-        <div class="flex flex-col lg:flex-row gap-[24px]]">
-          <div class="card bg-[#F9DF8A] w-[33%] pl-[20px] bg-[url(assets/cute-pet-small.png)] bg-no-repeat bg-right-bottom">
-            <div class="card-body text-left pl-0">
-              <h2 class="card-title text-left pl-0">T-Shirt For Dogs</h2>
-              <p>Discover a world of treats, toys and essentials handpicked for</p>
+        <div class="flex flex-col lg:flex-row lg:gap-[24px]">
+          <div class="card bg-[#F9DF8A] w-full lg:w-[33%] pl-[15px] lg:pl-[20px] bg-[url(assets/cute-pet-small.png)] bg-no-repeat bg-right-bottom h-[360px] lg:h-auto">
+            <div class="card-body text-left pl-0 mb-0 pb-0 flex-none">
+              <h2 class="card-title text-left pl-0 text-text text-3xl">T-Shirt For Dogs</h2>
+              <p class="text-[#333] text-base lg:text-lg">Discover a world of treats, toys and<br>essentials handpicked for</p>
             </div>
-            <div class="card-actions">
+            <div class="card-actions pt-[10px]">
               <button class="btn btn-white text-text">Shop Now</button>
             </div>
           </div>
-          <div class="card w-[64%]">
-            <div class="grid lg:grid-cols-3">
-              <div>
-                <img src="assets/dog-cartoon.png">
+          <div class="card w-full lg:w-[64%] px-[10px] lg:px-0">
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-[10px]">
+              <div class="flex items-center border-[rgba(17,17,17,.1)] border-[1px] rounded gap-[10px] lg:gap-[20px] py-[10px]">
                 <div>
-                  <div class="rating  my-0"><i class="mask mask-star-2 bg-orange-400 text-8xl my-0">&nbsp;</i></div> 
-                  <h4>Pet Bed</h4>
-                  <p>$39.99</p>
+                  <img src="assets/dog-cartoon.png" class="w-[54px] lg:w-[86px] px-[6px] lg:px-[16px]">
+                </div>
+                <div class="my-auto">
+                  <div class="rating"><input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107] text-8xl" /></div> <span class="text-xs lg:text-lg text-text">4.5</span>
+                  <h4 class="text-lg lg:text-xl text-text">Pet Bed</h4>
+                  <p class="text-base lg:text-lg text-text">$39.99</p>
+                </div>
+              </div>
+              <div class="flex items-center border-[rgba(17,17,17,.1)] border-[1px] rounded gap-[10px] lg:gap-[20px] py-[10px]">
+                <div>
+                  <img src="assets/fish-cartoon.png" class="w-[54px] lg:w-[86px] px-[6px] lg:px-[16px]">
+                </div>
+                <div class="my-auto">
+                  <div class="rating"><input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107] text-8xl" /></div> <span class="text-xs lg:text-lg text-text">4.5</span>
+                  <h4 class="text-lg lg:text-xl text-text">Pet Bed</h4>
+                  <p class="text-base lg:text-lg text-text">$39.99</p>
+                </div>
+              </div>
+              <div class="flex items-center border-[rgba(17,17,17,.1)] border-[1px] rounded gap-[10px] lg:gap-[20px] py-[10px]">
+                <div>
+                  <img src="assets/bird-cartoon.png" class="w-[54px] lg:w-[86px] px-[6px] lg:px-[16px]">
+                </div>
+                <div class="my-auto">
+                  <div class="rating"><input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107] text-8xl" /></div> <span class="text-xs lg:text-lg text-text">4.5</span>
+                  <h4 class="text-lg lg:text-xl text-text">Pet Bed</h4>
+                  <p class="text-base lg:text-lg text-text">$39.99</p>
+                </div>
+              </div>
+              <div class="flex items-center border-[rgba(17,17,17,.1)] border-[1px] rounded gap-[10px] lg:gap-[20px] py-[10px]">
+                <div>
+                  <img src="assets/rabbit-cartoon.png" class="w-[54px] lg:w-[86px] px-[6px] lg:px-[16px]">
+                </div>
+                <div class="my-auto">
+                  <div class="rating"><input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107] text-8xl" /></div> <span class="text-xs lg:text-lg text-text">4.5</span>
+                  <h4 class="text-lg lg:text-xl text-text">Pet Bed</h4>
+                  <p class="text-base lg:text-lg text-text">$39.99</p>
+                </div>
+              </div>
+              <div class="flex items-center border-[rgba(17,17,17,.1)] border-[1px] rounded gap-[10px] lg:gap-[20px] py-[10px]">
+                <div>
+                  <img src="assets/bird-cartoon.png" class="w-[54px] lg:w-[86px] px-[6px] lg:px-[16px]">
+                </div>
+                <div class="my-auto">
+                  <div class="rating"><input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107] text-8xl" /></div> <span class="text-xs lg:text-lg text-text">4.5</span>
+                  <h4 class="text-lg lg:text-xl text-text">Pet Bed</h4>
+                  <p class="text-base lg:text-lg text-text">$39.99</p>
+                </div>
+              </div>
+              <div class="flex items-center border-[rgba(17,17,17,.1)] border-[1px] rounded gap-[10px] lg:gap-[20px] py-[10px]">
+                <div>
+                  <img src="assets/pet-couch.png" class="w-[54px] lg:w-[86px] px-[6px] lg:px-[16px]">
+                </div>
+                <div class="my-auto">
+                  <div class="rating"><input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107] text-8xl" /></div> <span class="text-xs lg:text-lg text-text">4.5</span>
+                  <h4 class="text-lg lg:text-xl text-text">Pet Bed</h4>
+                  <p class="text-base lg:text-lg text-text">$39.99</p>
+                </div>
+              </div>
+              <div class="flex items-center border-[rgba(17,17,17,.1)] border-[1px] rounded gap-[10px] lg:gap-[20px] py-[10px]">
+                <div>
+                  <img src="assets/fish-cartoon.png" class="w-[54px] lg:w-[86px] px-[6px] lg:px-[16px]">
+                </div>
+                <div class="my-auto">
+                  <div class="rating"><input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107] text-8xl" /></div> <span class="text-xs lg:text-lg text-text">4.5</span>
+                  <h4 class="text-lg lg:text-xl text-text">Pet Bed</h4>
+                  <p class="text-base lg:text-lg text-text">$39.99</p>
+                </div>
+              </div>
+              <div class="flex items-center border-[rgba(17,17,17,.1)] border-[1px] rounded gap-[10px] lg:gap-[20px] py-[10px]">
+                <div>
+                  <img src="assets/pet-couch.png" class="w-[54px] lg:w-[86px] px-[6px] lg:px-[16px]">
+                </div>
+                <div class="my-auto">
+                  <div class="rating"><input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107] text-8xl" /></div> <span class="text-xs lg:text-lg text-text">4.5</span>
+                  <h4 class="text-lg lg:text-xl text-text">Pet Bed</h4>
+                  <p class="text-base lg:text-lg text-text">$39.99</p>
+                </div>
+              </div>
+              <div class="lg:flex items-center border-[rgba(17,17,17,.1)] border-[1px] rounded gap-[10px] lg:gap-[20px] py-[10px] hidden">
+                <div>
+                  <img src="assets/rabbit-cartoon.png" class="w-[54px] lg:w-[86px] px-[6px] lg:px-[16px]">
+                </div>
+                <div class="my-auto">
+                  <div class="rating"><input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107] text-8xl" /></div> <span class="text-xs lg:text-lg text-text">4.5</span>
+                  <h4 class="text-lg lg:text-xl text-text">Pet Bed</h4>
+                  <p class="text-base lg:text-lg text-text">$39.99</p>
                 </div>
               </div>
             </div>
